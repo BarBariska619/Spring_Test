@@ -14,4 +14,7 @@ class CountryController (
 ) {
     @GetMapping
     fun getAll(): List<CoutnryDto> = countryService.getAll()
+    fun check (){
+        println("Hello")
+    }
 }
